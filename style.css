@@ -23,7 +23,7 @@ html {
   min-height: 100vh;
   width: 100%;
   color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .bg-video {
@@ -80,6 +80,7 @@ nav .point {
   flex-direction: column;
   background-color: white;
 }
+
 .cursor {
   height: 220px;
   width: 220px;
