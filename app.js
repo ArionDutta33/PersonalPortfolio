@@ -8,9 +8,10 @@ gsap.to(page2, {
         scroller: "body",
         trigger: ".page1",
         pin: true,
+        scrub: 5,
         start: " top -100%",
-        end: "bottom -100%",
-        scrub: true,
+        end: "bottom 40%",
+        // scrub: true,
 
     }
 })
