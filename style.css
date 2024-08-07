@@ -6,10 +6,14 @@
   text-decoration: none;
   list-style: none;
 }
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
 body,
 html {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 .page1 {
   font-family: "Manrope", sans-serif;
@@ -19,6 +23,7 @@ html {
   min-height: 100vh;
   width: 100%;
   color: white;
+  overflow: hidden;
 }
 
 .bg-video {
@@ -27,7 +32,7 @@ html {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;
+  z-index: -99;
 }
 nav {
   display: flex;
@@ -48,6 +53,7 @@ nav .point {
 .main {
   padding: 0 9vw;
   margin: 110px 0;
+  height: 40rem;
 }
 .small-text {
   padding: 0 0.5vw;
@@ -57,6 +63,36 @@ nav .point {
 .large-text {
   font-size: 9vw;
   font-weight: bolder;
-  line-height: 180px;
-  letter-spacing: -11px;
+  line-height: 8vw;
+  letter-spacing: -0.2vw;
+}
+
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.cursor {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+.hero {
+  font-size: 4vw;
+  padding: 0 16vw;
 }

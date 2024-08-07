@@ -1,5 +1,5 @@
-const page1 = document.querySelector(".page1")
-gsap.to(page1, {
-    // duration: 8,
-    y: "-100vh"
-})
+// const page2 = document.querySelector(".page2")
+// gsap.to(page2, {
+//     // transform: "translateY(-100%)"
+//     // y: "-100%"
+// })
