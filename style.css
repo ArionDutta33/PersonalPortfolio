@@ -14,12 +14,12 @@ html {
   height: 100%;
   width: 100%;
   /* overflow: hidden; */
-}
-.page1 {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+}
+.page1 {
   min-height: 100vh;
   width: 100%;
   color: white;
@@ -96,4 +96,35 @@ nav .point {
 .hero {
   font-size: 4vw;
   padding: 0 16vw;
+}
+.swiper {
+  width: 800px;
+  height: 600px;
+  background-color: red;
+  border: 1px solid violet;
+}
+
+.page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.left-part {
+  border: 2px solid red;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.right-part {
+  border: 1px solid yellow;
+  width: 50%;
+}
+.swiper-slide {
+  height: 220px;
+  width: 40px;
+  border: 1px solid red;
+  background-color: yellow;
+  border: 1px solid blue;
 }
